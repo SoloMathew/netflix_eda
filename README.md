@@ -95,3 +95,8 @@ From the exploratory data analysis performed on the Netflix dataset, we can conc
   - For TV Shows Netflix should focus on countries like Japan, South Korea, Canada, and France.
   - TV Show seasons can be up to 3 preferably.
   - International TV Shows, TV Dramas, and TV Comedies should be the preferred genres for TV Shows.
+ 
+### Reference
+---
+
+- [Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows/data)
