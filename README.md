@@ -16,13 +16,12 @@
 
 Netflix is one of the most popular media and video streaming platforms. They have over 8000 movies or TV shows on their platform, and as of mid-2021, they have over 200M Subscribers globally. This tabular dataset consists of listings of all the movies and TV shows available on Netflix, along with details such as - cast, directors, ratings, release year, duration, etc. This is an EDA through its data, with a wide range of graphs and visuals.
 
-Add image here
+![image](https://github.com/SoloMathew/netflix_eda/blob/main/release_density.png)
 
 ### Data Sources
 ---
 
-Add data source file and link it here
-
+The data is available in the source file [here](https://github.com/SoloMathew/netflix_eda/blob/main/netflix_titles.csv.zip)
 
 ### Tools
 ---
@@ -55,6 +54,8 @@ Add data source file and link it here
 release_per_year = net.groupby(['release_year'])['type'].value_counts().unstack(level = -1).reset_index()
 release_per_year
 ```
+
+![image](https://github.com/SoloMathew/netflix_eda/blob/main/release_by_years.png)
 
 - What are the genres in the data set movies/TV shows?
 
